@@ -4,6 +4,10 @@
   color: #1b3c59;
 }
 
+.bg_blue {
+  background: #1b3c59;
+}
+
 header #navbarContainer {
   position: -webkit-sticky;
   position: sticky;
@@ -59,5 +63,56 @@ header .boolean__navbar__cta {
 
 header .boolean__navbar__cta .nav-link {
   color: white !important;
+}
+
+footer {
+  padding: 70px 0 30px;
+}
+
+footer .footer__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #fff;
+}
+
+footer .footer__head__left img {
+  width: 200px;
+}
+
+footer .footer__head__left__numbers {
+  color: #fff;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+footer .footer__head__right ul {
+  text-align: right;
+  padding: 0;
+}
+
+footer .footer__head__right ul a {
+  color: #fff;
+  font-size: 20px;
+}
+
+footer .footer__bottom {
+  text-align: center;
+}
+
+footer .footer__bottom__icons a i {
+  color: #fff;
+  margin: 30px 20px;
+  font-size: 35px;
+  transition: 0.3s;
+}
+
+footer .footer__bottom__icons a i:hover {
+  color: #61ce4e;
+}
+
+footer .footer__bottom__text {
+  color: #fff;
+  font-size: 15px;
 }
 
