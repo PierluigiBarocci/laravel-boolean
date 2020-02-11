@@ -1,0 +1,48 @@
+.boolean__jumbo {
+    padding: 80px 0;
+    &__cnt {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__content__left {
+        flex-basis: 52%;
+        h1 {
+            text-transform: uppercase;
+            strong {
+                display: block;
+                font-weight: 500;
+            }
+        }
+        .jumbo-title {
+            font-size: 58.5px;
+            line-height: 1.1;
+            font-weight: 300;
+        }
+        .subtitle {
+            font-size: 22px;
+            line-height: 1.2;
+            font-weight: 400;
+        }
+        p {
+            margin-top: 40px;
+            color: #1b3c59;
+        }
+        .no-p-left {
+            padding-left: 20px;
+            .paragraph {
+                font-size: 19px;
+                font-weight: 300;
+            }
+        }
+    }
+    &__content__right {
+        flex-basis: 48%;
+        text-align: center;
+
+        img {
+            max-width: 90%;
+            margin: 0 auto;
+        }
+    }
+}

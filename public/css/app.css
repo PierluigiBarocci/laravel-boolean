@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap);* {
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap);* {
   font-family: Rubik, sans-serif;
   box-sizing: border-box;
   color: #1b3c59;
@@ -76,6 +76,135 @@ header .boolean__navbar__cta {
 
 header .boolean__navbar__cta .nav-link {
   color: white !important;
+}
+
+.boolean__jumbo {
+  padding: 80px 0;
+}
+
+.boolean__jumbo__cnt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boolean__jumbo__content__left {
+  flex-basis: 52%;
+}
+
+.boolean__jumbo__content__left h1 {
+  text-transform: uppercase;
+}
+
+.boolean__jumbo__content__left h1 strong {
+  display: block;
+  font-weight: 500;
+}
+
+.boolean__jumbo__content__left .jumbo-title {
+  font-size: 58.5px;
+  line-height: 1.1;
+  font-weight: 300;
+}
+
+.boolean__jumbo__content__left .subtitle {
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.boolean__jumbo__content__left p {
+  margin-top: 40px;
+  color: #1b3c59;
+}
+
+.boolean__jumbo__content__left .no-p-left {
+  padding-left: 20px;
+}
+
+.boolean__jumbo__content__left .no-p-left .paragraph {
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.boolean__jumbo__content__right {
+  flex-basis: 48%;
+  text-align: center;
+}
+
+.boolean__jumbo__content__right img {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.boolean__data {
+  padding: 40px 0;
+}
+
+.boolean__data__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boolean__data__child {
+  flex-basis: 280px;
+  max-width: 280px;
+  text-align: center;
+}
+
+.boolean__data__child h3 {
+  color: #fff;
+  font-size: 49.5px;
+  font-weight: 400;
+}
+
+.boolean__data__child p {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.boolean__companies {
+  padding: 30px 0;
+}
+
+.boolean__companies h4 {
+  color: #8e8e8e;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.boolean__companies__center,
+.boolean__companies__start {
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boolean__companies__start {
+  text-align: left;
+}
+
+.boolean__companies__start .boolean__companies__image {
+  text-align: left;
+}
+
+.boolean__companies__image {
+  flex-basis: calc(100% / 3);
+}
+
+.boolean__companies__image img {
+  max-width: 250px;
+}
+
+.boolean__companies__center {
+  text-align: right;
+}
+
+.boolean__companies__center .boolean__companies__image {
+  text-align: right;
 }
 
 footer {
