@@ -21,7 +21,7 @@
                         <a href="#">Per le aziende</a>
                     </li>
                     <li>
-                        <a href="#">Privacy policy</a>
+                        <a href="{{ route('privacy') }}">Privacy policy</a>
                     </li>
                     <li>
                         <a href="#">Lavora con noi</a>

@@ -1,5 +1,5 @@
 <header>
-    <div id="navbarContainer">
+    <div id="navbarContainer" class="fixed-top">
         <div class="container-fluid">
             <nav class="boolean__navbar navbar navbar-expand-md navbar-light">
                 <a class="boolean__navbar__logo navbar-brand" href="{{ route('homepage') }}">

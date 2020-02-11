@@ -3,7 +3,9 @@
     @include('layouts.head')
     <body>
         @include('layouts.header')
-        @yield('content')
+        <main>
+            @yield('content')            
+        </main>
         @include('layouts.footer')
     </body>
 </html>

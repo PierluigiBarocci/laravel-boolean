@@ -8,11 +8,24 @@
   background: #1b3c59;
 }
 
+main {
+  padding-top: 90px;
+}
+
+.row.section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.17rem;
+}
+
 header #navbarContainer {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  left: 0;
   background: #fff;
   z-index: 9999;
   width: 100%;

@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
-@section('title', 'Home')
+@section('title', 'Il corso per diventare web developer e trovare un nuovo lavoro')
 
 @section('content')
-    
+
 @endsection
