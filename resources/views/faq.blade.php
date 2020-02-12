@@ -11,4 +11,12 @@
             </p>
         </div>
     </div>
+
+    @foreach ($lista_faqs as $single_faq)
+        <h2>{{ $single_faq['q'] }}</h2>
+        <br>
+        <p>{{ $single_faq['a'] }}</p>
+        <br>
+    @endforeach
+
 @endsection

@@ -20,5 +20,6 @@ Route::get('/privacy-policy', function () {
 })->name('privacy');
 
 Route::get('/faq', function () {
-    return view('faq');
+    $data = ['lista_faqs' => config('dati.faqs')];
+    return view('faq', $data);
 })->name('faq');
