@@ -8,6 +8,10 @@
   background: #1b3c59;
 }
 
+.bg_light_blue {
+  background: #e8ebf1;
+}
+
 main {
   padding-top: 90px;
 }
@@ -227,6 +231,50 @@ header .boolean__navbar__cta .nav-link {
 .boolean__faq__jumbo p a {
   color: #1b3c59;
   text-decoration: underline;
+}
+
+.boolean__faq__body__cnt > div {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.boolean__faq__body__cnt > div:last-child div h3,
+.boolean__faq__body__cnt > div:last-child div h3 i,
+.boolean__faq__body__cnt > div:last-child div p,
+.boolean__faq__body__cnt > div:last-child div h2 {
+  color: white;
+}
+
+.boolean__faq__body__cnt > div h2 {
+  padding: 0 80px;
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+#whiteTitle {
+  color: white;
+}
+
+.boolean__faq__body__question {
+  margin: 40px 0;
+  padding: 0 80px;
+}
+
+.boolean__faq__body__question h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.boolean__faq__body__question h3 i {
+  float: right;
+  cursor: pointer;
+}
+
+.boolean__faq__body__question p {
+  display: none;
+  line-height: 30px;
+  font-size: 18px;
 }
 
 footer {

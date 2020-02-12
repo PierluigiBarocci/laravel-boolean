@@ -16,3 +16,40 @@
         }
     }
 }
+
+.boolean__faq__body__cnt > div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    &:last-child div h3,
+    &:last-child div h3 i,
+    &:last-child div p,
+    &:last-child div h2 {
+        color: white;
+    }
+    h2 {
+        padding: 0 80px;
+        font-weight: 400;
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+}
+#whiteTitle {
+    color: white;
+}
+.boolean__faq__body__question {
+    margin: 40px 0;
+    padding: 0 80px;
+    h3 {
+        font-weight: 400;
+        font-size: 24px;
+        i {
+            float: right;
+            cursor: pointer;
+        }
+    }
+    p {
+        display: none;
+        line-height: 30px;
+        font-size: 18px;
+    }
+}
