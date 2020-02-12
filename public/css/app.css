@@ -57,7 +57,8 @@ header .boolean__navbar__item {
   font-size: 14px;
 }
 
-header .boolean__navbar__item.active {
+header .boolean__navbar__item.active,
+header .boolean__navbar__item:hover {
   border-bottom: 2px solid #61ce4e;
 }
 
