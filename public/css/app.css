@@ -208,6 +208,27 @@ header .boolean__navbar__cta .nav-link {
   text-align: right;
 }
 
+.boolean__faq__jumbo {
+  padding: 50px 0;
+  text-align: left;
+}
+
+.boolean__faq__jumbo h1 {
+  font-weight: 400;
+  font-size: 44px;
+  padding: 0 80px;
+}
+
+.boolean__faq__jumbo p {
+  padding: 0 80px;
+  font-size: 18px;
+}
+
+.boolean__faq__jumbo p a {
+  color: #1b3c59;
+  text-decoration: underline;
+}
+
 footer {
   padding: 70px 0 30px;
 }

@@ -15,7 +15,7 @@
                         <a href="#">Lezione gratuita</a>
                     </li>
                     <li>
-                        <a href="#">Domande frequenti</a>
+                        <a href="{{ route('faq') }}">Domande frequenti</a>
                     </li>
                     <li>
                         <a href="#">Per le aziende</a>
