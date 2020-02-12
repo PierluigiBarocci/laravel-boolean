@@ -3,7 +3,7 @@
         'faqs_sx' => [
             [
                 'q' => 'Chi può fare il corso Boolean? ',
-                'a' => 'Chiunque abbia una forte curiosità verso il mondo della programmazione e voglia di imparare a fare il         mestiere di sviluppatore. 
+                'a' => 'Chiunque abbia una forte curiosità verso il mondo della programmazione e voglia di imparare a fare il         mestiere di sviluppatore.
                     Età e curriculum non sono una discriminante: infatti, i nostri studenti hanno dai 18 ai 45 anni, sono giovani ragazzi senza alcuna esperienza lavorativa, ma anche affermati professionisti che vogliono cambiare settore.Se non hai mai programmato o se hai già seguito qualche corso ma senti di non aver approfondito abbastanza per diventare programmatore, Boolean è il corso che fa per te.'
             ],
             [
@@ -28,7 +28,7 @@
             ],
             [
                 'q' => 'Quanto costa il corso? ',
-                'a' => "Trovi tutte le informazioni sul prezzo nell'<a href="/">apposita sezione della pagina corso</a>"
+                'a' => 'Trovi tutte le informazioni sul prezzo nell\'apposita sezione della pagina corso.'
             ],
         ],
         'faqs_dx' => [
