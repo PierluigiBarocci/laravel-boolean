@@ -163,6 +163,10 @@ header .boolean__navbar__cta .nav-link {
   font-weight: 400;
 }
 
+.boolean__data__child h3 small {
+  color: white;
+}
+
 .boolean__data__child p {
   color: #fff;
   font-size: 19px;
