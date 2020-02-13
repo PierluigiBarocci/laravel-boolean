@@ -19,7 +19,7 @@
                     @foreach ($lista_faqs_sx as $single_faq)
                         <div class="boolean__faq__body__question">
                             <h3>{{ $single_faq['q'] }} <i class="fas fa-plus"></i></h3>
-                            <p>{{ $single_faq['a'] }}</p>
+                            <p>{!! $single_faq['a'] !!}</p>
                         </div>
                     @endforeach
                 </div>

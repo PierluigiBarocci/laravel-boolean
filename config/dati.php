@@ -28,7 +28,7 @@
             ],
             [
                 'q' => 'Quanto costa il corso? ',
-                'a' => 'Trovi tutte le informazioni sul prezzo nell\'apposita sezione della pagina corso.'
+                'a' => 'Trovi tutte le informazioni sul prezzo nell\'<a href="#">apposita sezione della pagina corso</a>.'
             ],
         ],
         'faqs_dx' => [
